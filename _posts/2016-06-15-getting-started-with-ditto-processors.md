@@ -118,8 +118,8 @@ namespace DemoApp.Controllers
     public class HomePageController : RenderMvcController 
     {
         public ActionResult HomePage(RenderModel model, [FromUri] int offset = 0)
-        { 
-	        var contexts = new[]{ new AddNumberProcessorContext() { Number = offset } };
+        {
+            var contexts = new[]{ new AddNumberProcessorContext() { Number = offset } };
 
             return View(model.As<homepageviewmodel>(processorContexts: contexts));
         }
