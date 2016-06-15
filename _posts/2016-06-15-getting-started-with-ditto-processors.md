@@ -159,7 +159,7 @@ namespace DemoApp.ComponentModel.Processors
 
 It’s as simple as adding `[DittoProcessorMetaData(ContextType = typeof(AddNumberProcessorContext))]`, which sets the Processor to expect a Context of our new processor context. If a context is available we then use it in our code. I’ve added a check to ensure it is the right type and after that it’s a simple case of added the two numbers together.
 
-### In conclusion (alternate title: A lot to Process\[or\]…)
+## In conclusion (alternate title: A lot to Process\[or\]…)
 
 We’ve covered:
 
@@ -170,6 +170,6 @@ We’ve covered:
 
 This is just the tip of the iceberg when it comes to the new additions added in Ditto v0.9.0.
 
-In a separate blog I might look in to caching and perhaps some additional advanced uses.
+In a separate blog I might look into caching and perhaps some additional advanced uses.
 
 Happy Dittoing!
