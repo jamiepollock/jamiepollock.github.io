@@ -71,6 +71,16 @@ h1 {
   font-weight: 700;
 }
 
+
+h1 a {
+  color: inherit;
+}
+
+h1 a:hover {
+  color: #007edf;
+  text-decoration: none;
+}
+
 h2 {
   padding-bottom: 10px;
   font-size: 32px;

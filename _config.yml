@@ -1,0 +1,7 @@
+name: Jamie's Blog
+description: Trying to explain things I think I know
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+url: "https://jamiepollock.github.io"
+baseurl: ""
