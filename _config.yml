@@ -5,3 +5,9 @@ permalink: /blog/:year/:month/:day/:title
 
 url: "https://jamiepollock.github.io"
 baseurl: ""
+
+codeUrl: "https://github.com/jamiepollock"
+
+sass:
+    sass_dir: _sass
+    style: compressed

@@ -1,0 +1,48 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@import '../_sass/lib/code-highlight';
+
+body {
+    background-color: #000033;
+}
+header {
+    margin: 0;
+    padding: 1em 0;
+
+    .logo {
+        color: #fff;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+
+        li {
+            margin: 0;
+            display: inline-block;
+            padding-right: 1em;
+            a {
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+main {
+    padding: 1em 0;
+    background-color: #fff;
+}
+
+footer {
+    color: #fff;
+    margin:0;
+    padding: 1em 0;
+
+    p {
+        margin: 0;
+    }
+}
