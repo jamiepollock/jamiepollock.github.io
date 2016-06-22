@@ -1,0 +1,7 @@
+footer {    
+    @extend %top-n-tail;
+
+    p {
+        margin: 0;
+    }
+}
