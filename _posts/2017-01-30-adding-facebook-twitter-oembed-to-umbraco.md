@@ -37,7 +37,7 @@ For those of you unfamilar with the _EmbeddedMedia.config_ setup. We're basicall
 
 * Adding in a provider called Twitter
 * Expecting a JSON response hence the call to `Umbraco.Web.Media.EmbedProviders.OEmbedJson`
-* We want to match any URL which matches the very loose regex pattern, "`twitter\.com`".
+* We want to match any URL which matches the very loose regex pattern, "`twitter\.com/`".
 * Once we find a URL that matches, send the URL to the provided API endpoint, in this case: [https://publish.twitter.com/oembed](https://publish.twitter.com/oembed)
 * The data we're going to send is coming from the standard, `Umbraco.Web.Media.EmbedProviders.Settings.Dictionary`
 
