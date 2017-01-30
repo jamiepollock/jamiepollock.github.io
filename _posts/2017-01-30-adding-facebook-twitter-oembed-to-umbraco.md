@@ -79,7 +79,7 @@ Also the documentation states it returns JSON so we'll need to use `Umbraco.Web.
 
 So that's that then, eh? We have our configuration everything should just work? Sadly no. 
 
-If we add this in and fire it up, we'll get an error appear in the Umbraco app logs. The crux of it I've found is that the Facebook OEmbed endpoint doesn't play nicely with `System.Net.WebClient` whicch is used in [OEmbedJson's inherited method](https://github.com/umbraco/Umbraco-CMS/blob/release-7.5.8/src/Umbraco.Web/Media/EmbedProviders/AbstractOEmbedProvider.cs#L52-L58),`DownloadResponse(string url)`. Essentially calling the API Endpoint will return a HTML response saying the browser is not supported by Facebook.
+If we add this in and fire it up, we'll get an error appear in the Umbraco app logs. The crux of it I've found is that the Facebook OEmbed endpoint doesn't play nicely with `System.Net.WebClient` which is used in [OEmbedJson's inherited method](https://github.com/umbraco/Umbraco-CMS/blob/release-7.5.8/src/Umbraco.Web/Media/EmbedProviders/AbstractOEmbedProvider.cs#L52-L58),`DownloadResponse(string url)`. Essentially calling the API Endpoint will return a HTML response saying the browser is not supported by Facebook.
 
 Here's a screencast of the outcome in action, using a custom OEmbed provider to allow for easy debugging:
 
