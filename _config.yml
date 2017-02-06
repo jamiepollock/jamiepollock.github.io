@@ -11,3 +11,11 @@ codeUrl: "https://github.com/jamiepollock"
 sass:
     sass_dir: _sass
     style: compressed
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
+      comments: true

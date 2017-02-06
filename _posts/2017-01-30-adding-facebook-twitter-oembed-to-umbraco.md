@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Adding Facebook & Twitter OEmbed to Umbraco"
 date: 2017-01-30
 tags: "umbraco"
-comments: true
 ---
 Today, I'll be covering adding in Facebook & Twitter as OEmbed providers to Umbraco 7. Out of the box [Umbraco](https://umbraco.com/) has support for many different services, video services like YouTube & Vimeo being the most popular. However two popular services which aren't available for embed are Facebook & Twitter.
 

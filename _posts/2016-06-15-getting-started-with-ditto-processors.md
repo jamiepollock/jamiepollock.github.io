@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Getting Started with Processors in Umbraco Ditto v0.9.0"
 date: 2016-06-15
 tags: "umbraco, umbraco-ditto"
-comments: true
 ---
 I’m a big fan of [Umbraco Ditto](https://github.com/leekelleher/umbraco-ditto), We’ve used it on all of our Umbraco projects at
 [Connect](http://www.connect-group.com/) over the past couple of years, having become a bit of an evangelist, recommending it becomes a part of our Umbraco dev kit. It makes accessing data from the Content Management System (CMS) that much more friendly.
