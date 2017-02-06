@@ -10,7 +10,6 @@
  <id>{{site.url}}/blog</id>
  <author>
    <name>Jamie Pollock</name>
-   <email>jamie.does.umbraco@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
